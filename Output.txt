@@ -1,0 +1,1026 @@
+COME LEGGERE I DATI:
+-i dati relativi a ciascun grafo partono dal numero fino a quello successivo;
+-tra le parentesi quadre si trova la matrice di adiacenza del grafo: ogni riga è racchiusa a sua volta da parentesi quadre;
+-5 stringhe di uscita indicano i tempi registrati per il calcolo delle componenti connesse per lo stesso grafo;
+-List number x, indica l'x-esima componente connessa seguita dai nodi appartenenti;
+-5 stringhe di uscita indicano i tempi registrati per il calcolo dell'albero di connessione minimo per lo stesso grafo;
+-( x, y ) indica che l'arco appartente al MST calcolato.
+
+1-GRAFO A 6 NODI E 10% DI PROBABILITà
+[[13.  0.  0.  0.  0.  0.]
+ [ 0. 51.  0.  0.  0.  0.]
+ [ 0.  0.  0.  0.  0.  0.]
+ [ 0.  0. 74.  0. 61.  0.]
+ [ 0.  0.  0. 15.  0.  0.]
+ [ 0.  0.  0.  0.  0.  0.]]
+crea grafo di  6 elementi con probabilità di archi del  10 %.
+Sono necessari  0.0001873  secondi per determinare le componenti di connesse di un grafo con  6  nodi e probabilità  10 .
+Sono necessari  0.00009363  secondi per determinare le componenti di connesse di un grafo con  6  nodi e probabilità  10 .
+Sono necessari  0.00008652  secondi per determinare le componenti di connesse di un grafo con  6  nodi e probabilità  10 .
+Sono necessari  0.00009521  secondi per determinare le componenti di connesse di un grafo con  6  nodi e probabilità  10 .
+Sono necessari  0.00008731  secondi per determinare le componenti di connesse di un grafo con  6  nodi e probabilità  10 .
+List number  1
+.. 0
+List number  2
+.. 1
+List number  3
+.. 3
+.. 2
+.. 4
+List number  4
+.. 5
+Sono necessari  0.0001375  secondi per determinare il MST di un grafo con  6  nodi e probabilità  10 .
+Sono necessari  0.0001221  secondi per determinare il MST di un grafo con  6  nodi e probabilità  10 .
+Sono necessari  0.0001161  secondi per determinare il MST di un grafo con  6  nodi e probabilità  10 .
+Sono necessari  0.0001316  secondi per determinare il MST di un grafo con  6  nodi e probabilità  10 .
+Sono necessari  0.0001161  secondi per determinare il MST di un grafo con  6  nodi e probabilità  10 .
+( 4 , 3 )
+( 3 , 2 )
+
+2-GRAFO A 7 NODI E 19% DI PROBABILITà
+[[99. 90. 56.  0. 75.  0.  0.]
+ [ 0.  0. 37.  0. 76.  0.  0.]
+ [ 0.  0.  0.  7. 83.  0. 84.]
+ [ 0.  0. 48.  0.  0.  0.  0.]
+ [ 0.  0. 11. 53.  0.  0. 55.]
+ [ 0.  0.  6.  0.  0. 76.  0.]
+ [ 0. 90.  0.  0.  0.  0.  0.]]
+crea grafo di  7 elementi con probabilità di archi del  19.0 %.
+Sono necessari  0.0004658  secondi per determinare le componenti di connesse di un grafo con  7  nodi e probabilità  19.0 .
+Sono necessari  0.0001643  secondi per determinare le componenti di connesse di un grafo con  7  nodi e probabilità  19.0 .
+Sono necessari  0.0001956  secondi per determinare le componenti di connesse di un grafo con  7  nodi e probabilità  19.0 .
+Sono necessari  0.0001853  secondi per determinare le componenti di connesse di un grafo con  7  nodi e probabilità  19.0 .
+Sono necessari  0.0001920  secondi per determinare le componenti di connesse di un grafo con  7  nodi e probabilità  19.0 .
+List number  1
+.. 0
+.. 1
+.. 2
+.. 4
+.. 3
+.. 6
+.. 5
+Sono necessari  0.0004219  secondi per determinare il MST di un grafo con  7  nodi e probabilità  19.0 .
+Sono necessari  0.0003484  secondi per determinare il MST di un grafo con  7  nodi e probabilità  19.0 .
+Sono necessari  0.0002801  secondi per determinare il MST di un grafo con  7  nodi e probabilità  19.0 .
+Sono necessari  0.0002912  secondi per determinare il MST di un grafo con  7  nodi e probabilità  19.0 .
+Sono necessari  0.0002153  secondi per determinare il MST di un grafo con  7  nodi e probabilità  19.0 .
+( 5 , 2 )
+( 2 , 3 )
+( 4 , 2 )
+( 1 , 2 )
+( 4 , 6 )
+( 0 , 2 )
+
+3-GRAFO A 8 NODI E 27.1% DI PROBABILITà
+[[ 0.  4.  0.  0. 21.  0.  0.  0.]
+ [29.  0.  0. 20.  0.  0.  0.  0.]
+ [ 0.  0. 41. 82.  0.  0.  0. 88.]
+ [ 0.  0.  0.  0.  0.  0. 57.  0.]
+ [45.  0. 63. 32.  0. 50.  0.  0.]
+ [ 0.  0.  0. 22. 91.  0. 18. 12.]
+ [ 0. 52. 35.  0.  0.  0.  0.  0.]
+ [ 0.  0.  0.  0. 41.  0.  0.  0.]]
+crea grafo di  8 elementi con probabilità di archi del  27.1 %.
+Sono necessari  0.0003654  secondi per determinare le componenti di connesse di un grafo con  8  nodi e probabilità  27.1 .
+Sono necessari  0.0001892  secondi per determinare le componenti di connesse di un grafo con  8  nodi e probabilità  27.1 .
+Sono necessari  0.0001979  secondi per determinare le componenti di connesse di un grafo con  8  nodi e probabilità  27.1 .
+Sono necessari  0.0008237  secondi per determinare le componenti di connesse di un grafo con  8  nodi e probabilità  27.1 .
+Sono necessari  0.0003311  secondi per determinare le componenti di connesse di un grafo con  8  nodi e probabilità  27.1 .
+List number  1
+.. 0
+.. 1
+.. 4
+.. 3
+.. 2
+.. 7
+.. 6
+.. 5
+Sono necessari  0.002604  secondi per determinare il MST di un grafo con  8  nodi e probabilità  27.1 .
+Sono necessari  0.0007332  secondi per determinare il MST di un grafo con  8  nodi e probabilità  27.1 .
+Sono necessari  0.0004437  secondi per determinare il MST di un grafo con  8  nodi e probabilità  27.1 .
+Sono necessari  0.0003899  secondi per determinare il MST di un grafo con  8  nodi e probabilità  27.1 .
+Sono necessari  0.0004547  secondi per determinare il MST di un grafo con  8  nodi e probabilità  27.1 .
+( 0 , 1 )
+( 5 , 7 )
+( 5 , 6 )
+( 1 , 3 )
+( 0 , 4 )
+( 5 , 3 )
+( 6 , 2 )
+
+4-GRAFO A 10 NODI E 34.39% DI PROBABILITà
+[[ 0.  0.  0.  0.  0. 43.  0. 97.  0. 36.]
+ [ 0.  0.  0. 74. 85.  0. 28.  0. 45. 88.]
+ [ 0.  0. 70.  0.  0.  0.  0.  0. 47.  0.]
+ [78.  0.  0.  0.  0.  0.  0.  0.  0.  0.]
+ [ 0. 37.  0. 10.  0.  1.  0.  0.  0. 32.]
+ [ 3.  0.  0.  0.  0.  0. 95. 17. 53. 81.]
+ [ 0.  0.  8.  0. 41.  0.  0.  0.  0.  0.]
+ [ 0. 62.  0. 49.  0.  0.  0.  0.  0.  0.]
+ [82. 30.  0.  0.  0. 45.  0.  5.  0.  0.]
+ [ 0.  0.  0.  0. 17.  0.  0. 78.  0.  4.]]
+crea grafo di  10 elementi con probabilità di archi del  34.39 %.
+Sono necessari  0.0002663  secondi per determinare le componenti di connesse di un grafo con  10  nodi e probabilità  34.39 .
+Sono necessari  0.0002181  secondi per determinare le componenti di connesse di un grafo con  10  nodi e probabilità  34.39 .
+Sono necessari  0.0002133  secondi per determinare le componenti di connesse di un grafo con  10  nodi e probabilità  34.39 .
+Sono necessari  0.0002133  secondi per determinare le componenti di connesse di un grafo con  10  nodi e probabilità  34.39 .
+Sono necessari  0.0002121  secondi per determinare le componenti di connesse di un grafo con  10  nodi e probabilità  34.39 .
+List number  1
+.. 1
+.. 3
+.. 4
+.. 6
+.. 8
+.. 0
+.. 5
+.. 7
+.. 9
+.. 2
+Sono necessari  0.0003046  secondi per determinare il MST di un grafo con  10  nodi e probabilità  34.39 .
+Sono necessari  0.0002829  secondi per determinare il MST di un grafo con  10  nodi e probabilità  34.39 .
+Sono necessari  0.0002785  secondi per determinare il MST di un grafo con  10  nodi e probabilità  34.39 .
+Sono necessari  0.0002801  secondi per determinare il MST di un grafo con  10  nodi e probabilità  34.39 .
+Sono necessari  0.0002793  secondi per determinare il MST di un grafo con  10  nodi e probabilità  34.39 .
+( 4 , 5 )
+( 5 , 0 )
+( 8 , 7 )
+( 6 , 2 )
+( 4 , 3 )
+( 5 , 7 )
+( 9 , 4 )
+( 1 , 6 )
+( 8 , 1 )
+
+5-GRAFO A 12 NODI E 40.951% DI PROBABILITà
+[[ 0.  0. 75. 95.  0.  0.  0.  7.  0.  0.  0.  0.]
+ [ 0.  0. 97.  0. 10. 60.  0.  0.  0.  0. 82.  0.]
+ [ 0. 83. 43.  0. 52.  0. 43.  0.  0. 16.  0. 33.]
+ [ 0.  0.  0. 32.  0.  0.  8.  0.  0. 17.  0.  0.]
+ [74. 71.  0.  0. 87. 31.  0.  0. 95.  0. 27. 28.]
+ [ 3.  0. 95.  0. 90.  0.  2. 31.  0.  0.  8. 92.]
+ [ 0. 12.  0. 13.  0.  0.  0. 48.  0.  0.  6.  0.]
+ [ 3. 15.  4.  0.  0. 43.  0. 34.  0. 11. 91.  0.]
+ [ 0.  0.  0. 98. 66. 68.  0.  0. 46. 14.  0. 21.]
+ [ 0.  0.  0.  0.  0.  0. 48.  0. 50.  0. 78.  0.]
+ [74.  0. 19. 92.  0. 94.  0. 38.  0. 64.  0.  0.]
+ [81.  0.  0.  0. 68.  0.  0.  0. 11.  0.  0.  0.]]
+crea grafo di  12 elementi con probabilità di archi del  40.951 %.
+Sono necessari  0.001015  secondi per determinare le componenti di connesse di un grafo con  12  nodi e probabilità  40.951 .
+Sono necessari  0.0004934  secondi per determinare le componenti di connesse di un grafo con  12  nodi e probabilità  40.951 .
+Sono necessari  0.0004796  secondi per determinare le componenti di connesse di un grafo con  12  nodi e probabilità  40.951 .
+Sono necessari  0.0004551  secondi per determinare le componenti di connesse di un grafo con  12  nodi e probabilità  40.951 .
+Sono necessari  0.0004069  secondi per determinare le componenti di connesse di un grafo con  12  nodi e probabilità  40.951 .
+List number  1
+.. 0
+.. 2
+.. 3
+.. 7
+.. 1
+.. 4
+.. 5
+.. 10
+.. 6
+.. 9
+.. 11
+.. 8
+Sono necessari  0.0006388  secondi per determinare il MST di un grafo con  12  nodi e probabilità  40.951 .
+Sono necessari  0.0005803  secondi per determinare il MST di un grafo con  12  nodi e probabilità  40.951 .
+Sono necessari  0.0005811  secondi per determinare il MST di un grafo con  12  nodi e probabilità  40.951 .
+Sono necessari  0.0005784  secondi per determinare il MST di un grafo con  12  nodi e probabilità  40.951 .
+Sono necessari  0.0005811  secondi per determinare il MST di un grafo con  12  nodi e probabilità  40.951 .
+( 5 , 6 )
+( 5 , 0 )
+( 7 , 0 )
+( 7 , 2 )
+( 6 , 10 )
+( 3 , 6 )
+( 1 , 4 )
+( 7 , 9 )
+( 11 , 8 )
+( 6 , 1 )
+( 8 , 9 )
+
+6-GRAFO A 15 NODI E 46.8556% DI PROBABILITà
+[[ 0. 36. 23. 39.  0.  0.  0. 32. 95.  0.  0.  0.  0.  0. 99.]
+ [39. 28.  0.  0.  0. 51.  0. 73.  0. 61.  0. 13. 66.  0.  0.]
+ [ 0.  0.  6. 73. 32. 11. 93.  0. 93. 63.  0. 83. 23.  0.  0.]
+ [18. 98.  0. 82. 95.  0.  0.  0. 10.  5. 83. 37.  0.  0. 25.]
+ [70.  0.  0.  0.  0. 54.  0.  0.  0. 84. 92.  0. 56.  0. 70.]
+ [87.  0.  9. 44. 80. 31. 63.  0.  0.  0. 54. 91.  0.  0.  7.]
+ [89.  0.  0.  0. 57. 86. 63.  0. 57.  0. 23.  0.  7.  0.  0.]
+ [ 0.  0.  0.  4.  0.  0.  0. 48.  1. 41. 41.  9.  0. 84.  0.]
+ [98. 13.  0.  0.  0. 72.  0. 50.  0.  0. 77.  0.  0. 46.  8.]
+ [82.  0.  0.  0. 79. 43.  0.  0. 21.  0.  0.  0. 23. 23.  0.]
+ [12.  0. 71.  0. 63. 94.  0.  0.  9.  0.  0.  0.  0.  0. 43.]
+ [30.  0.  0. 26.  2.  0.  0. 45.  0. 97. 27.  2. 11.  0. 39.]
+ [26. 88.  0.  0. 76.  0. 69. 45. 55.  0.  0.  0. 52.  0. 26.]
+ [ 0.  0. 36.  0. 74.  0.  0. 45. 37. 19.  0.  0. 66.  0. 46.]
+ [96. 64. 43.  0. 19. 20.  0. 19. 89. 80.  0.  0. 52. 38.  0.]]
+crea grafo di  15 elementi con probabilità di archi del  46.8559 %.
+Sono necessari  0.0006179  secondi per determinare le componenti di connesse di un grafo con  15  nodi e probabilità  46.8559 .
+Sono necessari  0.0006404  secondi per determinare le componenti di connesse di un grafo con  15  nodi e probabilità  46.8559 .
+Sono necessari  0.0006052  secondi per determinare le componenti di connesse di un grafo con  15  nodi e probabilità  46.8559 .
+Sono necessari  0.0005768  secondi per determinare le componenti di connesse di un grafo con  15  nodi e probabilità  46.8559 .
+Sono necessari  0.0005756  secondi per determinare le componenti di connesse di un grafo con  15  nodi e probabilità  46.8559 .
+List number  1
+.. 0
+.. 1
+.. 2
+.. 3
+.. 7
+.. 8
+.. 14
+.. 5
+.. 9
+.. 11
+.. 12
+.. 4
+.. 6
+.. 10
+.. 13
+Sono necessari  0.001047  secondi per determinare il MST di un grafo con  15  nodi e probabilità  46.8559 .
+Sono necessari  0.0009541  secondi per determinare il MST di un grafo con  15  nodi e probabilità  46.8559 .
+Sono necessari  0.0009434  secondi per determinare il MST di un grafo con  15  nodi e probabilità  46.8559 .
+Sono necessari  0.0009647  secondi per determinare il MST di un grafo con  15  nodi e probabilità  46.8559 .
+Sono necessari  0.001023  secondi per determinare il MST di un grafo con  15  nodi e probabilità  46.8559 .
+( 7 , 8 )
+( 11 , 4 )
+( 7 , 3 )
+( 3 , 9 )
+( 5 , 14 )
+( 6 , 12 )
+( 8 , 14 )
+( 5 , 2 )
+( 7 , 11 )
+( 10 , 8 )
+( 11 , 12 )
+( 10 , 0 )
+( 1 , 11 )
+( 13 , 9 )
+
+7-GRAFO A 18 NODI E 52.17031% DI PROBABILITà
+[[ 26.   0.   0.  92.  70.   0.   0.   0.  76.   0.  24.   0.   0.   0.
+   74.   0.  75.  89.]
+ [  0.  23.   0.   0.   0.  15.  40.  84.   0.   0.   0.  26.  89.   2.
+   27.   0.   0.   0.]
+ [  4.   0.  15.   0.   0.  29.   0.  57.  54.  99.  95.  46.   0.   0.
+   28.  68.   0.   0.]
+ [  0.   0.  36.   0.  34.   0.  63.  20.   0.   0.   0.   0.  32.  87.
+   32.   0.  18.  78.]
+ [ 28.  89.   0.  24.   0.  60.   0.   0.  96.  18.  95.   0.   8.   0.
+    0.   0.   0.  36.]
+ [  0.  86.   0.  19.   0.  81.  67.  14.   6.  48.  79.   0.   0.  70.
+   67.  95.  11.   0.]
+ [ 26.   0.  38.  49.   0.  79.   0.   0.  60.   0.  54.   0.  49.  13.
+    0.  83.   0.  27.]
+ [ 44.  62.  38.  82.  49.   0.  88.  42.  44.   0.   0.  15.  30.   0.
+    0.  82.   0.  27.]
+ [  1.  10.  39.  61.  91.   0.  51.   0.   0.  49.   0.   0.   0.   0.
+   39.  61.  54.   0.]
+ [  0.   0.  48.  36.  96.   0.   0.  61.   0.   0.   0.   0.  55.  95.
+    0.   0.  86.   0.]
+ [ 48.   0.  76.   0.  95.  50.  45.  37.   0.  38.  59.   0.  57.  43.
+    0.   0.  59.   0.]
+ [ 87.  36.  28.   0.  48.   0.   0.  93.   0.   5.   0.  96.  19.  97.
+    0.   0.   9.  86.]
+ [ 77.   8.   7.  76.   0.   2.  68.   0.   0.   0.  18.  27.  71.   0.
+    0.   0.  35.  44.]
+ [  0.   7.  12.   0.   0.   0.   0.   0.   0.  15.   1.   1.   0.   0.
+   35.  30.   0.  61.]
+ [  0.  39.   0.  75.   0.  97.  46.  34.  71.   0.   0.   0.   0.   0.
+    0. 100.   0.   0.]
+ [  8.  81.  19.   0.   0.   0.  58.   0.   0.   0.   0.   0.  34.   0.
+    0.  27.   0.  89.]
+ [ 18.   0.   0.   0.  14.   0.  91.  20.  75.   6.  92.  48.  25.   0.
+   82.  86.   0.   0.]
+ [ 38.   1.  52.  16.  68.   0.   0.  40.   0.  63.  22.  59.   0.   0.
+   86.  44.  19.  87.]]
+crea grafo di  18 elementi con probabilità di archi del  52.17031 %.
+Sono necessari  0.001958  secondi per determinare le componenti di connesse di un grafo con  18  nodi e probabilità  52.17031 .
+Sono necessari  0.0008403  secondi per determinare le componenti di connesse di un grafo con  18  nodi e probabilità  52.17031 .
+Sono necessari  0.0008134  secondi per determinare le componenti di connesse di un grafo con  18  nodi e probabilità  52.17031 .
+Sono necessari  0.0008075  secondi per determinare le componenti di connesse di un grafo con  18  nodi e probabilità  52.17031 .
+Sono necessari  0.0007933  secondi per determinare le componenti di connesse di un grafo con  18  nodi e probabilità  52.17031 .
+List number  1
+.. 0
+.. 3
+.. 4
+.. 8
+.. 10
+.. 14
+.. 16
+.. 17
+.. 1
+.. 5
+.. 6
+.. 7
+.. 11
+.. 12
+.. 13
+.. 2
+.. 9
+.. 15
+Sono necessari  0.005113  secondi per determinare il MST di un grafo con  18  nodi e probabilità  52.17031 .
+Sono necessari  0.001855  secondi per determinare il MST di un grafo con  18  nodi e probabilità  52.17031 .
+Sono necessari  0.001148  secondi per determinare il MST di un grafo con  18  nodi e probabilità  52.17031 .
+Sono necessari  0.0007241  secondi per determinare il MST di un grafo con  18  nodi e probabilità  52.17031 .
+Sono necessari  0.0007119  secondi per determinare il MST di un grafo con  18  nodi e probabilità  52.17031 .
+( 8 , 0 )
+( 13 , 10 )
+( 13 , 11 )
+( 17 , 1 )
+( 1 , 13 )
+( 12 , 5 )
+( 2 , 0 )
+( 11 , 9 )
+( 5 , 8 )
+( 16 , 9 )
+( 4 , 12 )
+( 12 , 1 )
+( 15 , 0 )
+( 6 , 13 )
+( 5 , 7 )
+( 17 , 3 )
+( 1 , 14 )
+
+8-GRAFO A 22 NODI E 56.953279% DI PROBABILITà
+[[ 72.   0.  59.  86.   0.   0.  67.  11.   0.   0.  16.   0.  53.  88.
+    0.  69.  90.  79.   0.   0.  13.  14.]
+ [ 27.   3.   0.  61.   0.  37.  55.  93.  46.  48.   0.  40.  47.  88.
+   57.   0.  34.   0.  94.  99.  56.  98.]
+ [ 29.   0.  81.  98.  94.  30.  15.  84.  79.  37.   0.   2. 100.   0.
+    0.  53.  39.  17.   0.   0.  91.   0.]
+ [  0.   0.   0.  76.  32.   0.   0.   0.  10.   0.  98.   0.  39.   0.
+    0.  77.  92.   0.  65.  32.   2.  74.]
+ [  0.   0.  70.   0.  74.   0.  50.   0.   0.   0.   0.   0.  65.   0.
+    0.   0.  89.  68.   9.  89.  35.   9.]
+ [  0.   0.   0.  41.   0.  58.  35.  46.  60.   0.  71.  52.  92.   0.
+    0.   0.   0.   0.  76.  73.  99.   0.]
+ [ 34.  86.  43.   7.   0.  25.  39.  72.   0.  60.  71.   5.  44.   5.
+    0.   0.  90.   0.  88.  57.  15.   0.]
+ [  0.  15.  51.   0.   6.  92.  23.  46.  66.  72.   0.   9.  32.  31.
+    0.  10.  99.   6.   0.   0.  42.   0.]
+ [  7.  83.   0.  71.   0.  82.   0.   8.  27.   0.   0.   0.   0.   0.
+   50.  27.  41.   0.   0.   0.   0.   0.]
+ [ 52.  40.   0.  60.   0.  24.  55.  93.  17.  86.   0.   6.   0.   0.
+   95.  30.   0.  29.   0.  45.   0.   0.]
+ [ 57.   0.   0.  80.  33.  74.   0.   0.   4.  27.  42.   0.   0.   0.
+   24.   9.  49.  69.   0.   0.   0.   0.]
+ [  0.  35.  62.  83.  29.   0.   0.  83.  16.  13.  92.   0.  86.  62.
+    0.  30.   0.   0.  80.  29.   0.  26.]
+ [ 18.   9. 100.  52.   0.  34.  71.   0.   0.  82.   0.  43.   0.  67.
+    0.  68.  91.   0.   0.   0.  64.  91.]
+ [  7.  44.   0.   0.  33.  88.   0.  83.   0.   9.   0.   0.   0.   0.
+    0.   0.   0.  34.  59.   0.   0.   0.]
+ [ 41.   0.   0.   0.   0.  87.  87.   0.  29.  43.  64.   0.   0.   0.
+   29.   0.  57.  23.   0.   0.   0.   0.]
+ [  0.   8.  47.   0.   0.  28.  93.   0. 100.   0.  60.   0.   4.  65.
+    0.   0.  82.  81.  18.   0.   0.   5.]
+ [  0.  77.   0.  55.   0.   0.  54.   0.   0.  92.   0.  79.   0.  59.
+   28.  98.  64.  82.  28.  97.  54.   0.]
+ [ 15.  14.   0.   0.  63.  55.   0.   0.  46.  62.  44.  21.   0.   0.
+   32.   0.  65.   2.   0.  18.  15.   0.]
+ [  0.  97.  16.   0.   4.   0.  92.   0.   0.  82.   0.  86.   0.  51.
+    0.   0.   0.  73.  54.   2.  44.   0.]
+ [ 67.  42.  59.   0.  87.  20.  73.   0.  12.   0.   0.  47.   0.  76.
+   37.   0.  81.  92.  99.  52.  62.  33.]
+ [  0.   0.   0.  51.   0.   0.  75.   0.  91.   0.   0.  22.  20.  47.
+    0.   0.  65.  93.  68.   0.  30.  24.]
+ [ 62.  66.   0.  93.   0.   0.   0.   0.  79.   0.   0.  56.  70.  92.
+   71.  33.   3.   0.  83.  77.   0.  97.]]
+crea grafo di  22 elementi con probabilità di archi del  56.953279 %.
+Sono necessari  0.001155  secondi per determinare le componenti di connesse di un grafo con  22  nodi e probabilità  56.953279 .
+Sono necessari  0.001166  secondi per determinare le componenti di connesse di un grafo con  22  nodi e probabilità  56.953279 .
+Sono necessari  0.001604  secondi per determinare le componenti di connesse di un grafo con  22  nodi e probabilità  56.953279 .
+Sono necessari  0.001931  secondi per determinare le componenti di connesse di un grafo con  22  nodi e probabilità  56.953279 .
+Sono necessari  0.001310  secondi per determinare le componenti di connesse di un grafo con  22  nodi e probabilità  56.953279 .
+List number  1
+.. 0
+.. 2
+.. 3
+.. 6
+.. 7
+.. 10
+.. 12
+.. 13
+.. 15
+.. 16
+.. 17
+.. 20
+.. 21
+.. 1
+.. 5
+.. 8
+.. 9
+.. 11
+.. 14
+.. 18
+.. 19
+.. 4
+Sono necessari  0.002170  secondi per determinare il MST di un grafo con  22  nodi e probabilità  56.953279 .
+Sono necessari  0.001935  secondi per determinare il MST di un grafo con  22  nodi e probabilità  56.953279 .
+Sono necessari  0.001071  secondi per determinare il MST di un grafo con  22  nodi e probabilità  56.953279 .
+Sono necessari  0.001090  secondi per determinare il MST di un grafo con  22  nodi e probabilità  56.953279 .
+Sono necessari  0.001042  secondi per determinare il MST di un grafo con  22  nodi e probabilità  56.953279 .
+( 2 , 11 )
+( 3 , 20 )
+( 18 , 19 )
+( 21 , 16 )
+( 10 , 8 )
+( 15 , 12 )
+( 18 , 4 )
+( 6 , 11 )
+( 6 , 13 )
+( 15 , 21 )
+( 7 , 4 )
+( 7 , 17 )
+( 9 , 11 )
+( 6 , 3 )
+( 8 , 0 )
+( 13 , 0 )
+( 8 , 7 )
+( 15 , 1 )
+( 4 , 21 )
+( 19 , 5 )
+( 14 , 17 )
+
+9-GRAFO A 27 NODI E 61.2579511% DI PROBABILITà
+[[  0.   8.  26.  12.   0.   0.   0.  68.  68.  64.  76.   2.  16.  67.
+    0.  45.  81.   0.   0.   0.  68.  51.   0.   0.   0.   0.  55.]
+ [ 55.   0.   9.  64.  96.  27.  22.  34.   0.   0.  22.   0.  18.  33.
+    0.  47.  34.   0.  50.   0.   0.   0.   0.   0.   0.  81.  86.]
+ [  0.   0.  22.  79.  23.  78.  36.  44.  36.   9.  28.  21.  45.  47.
+   30.  32.  36.  63.   0.   0.  22.   0.  31.  55.  22.   0.  23.]
+ [ 48.   0.   0.   0.   0.   0.   0.   0.  91.   0.  31.  93.   0.  73.
+    0.  26.   0.   0.  75.  87.  95.   0.   0.   0.  81.   0.   0.]
+ [  0.   0.  83.   0.   2.  12.   0.  55.  21.  84.  30.   3.  33.   0.
+    0.   8.   0.   0.  67.   0.   0.  48.  33.  51.  91.   2.   0.]
+ [ 87.  64.  35.  29.  20.   0.  86.   0.  30.  57.  29.  83.   0.  97.
+   25.  29.   3.  68.   0.  22.   0.  47.  88.   0.  80.  38.  56.]
+ [  0.   0.   8.  37.  44.  29.  33.  11.   0.  59.  86.   0.  21.   0.
+    0.  15.  76.  31.   0.  64.  91.   0.   0.  18.  13.   0.  99.]
+ [ 70.  62.   4.   0.   4.  68.   0.  71.  49.   0.   9.  35.  61.   4.
+    7.   0.   0.   0.   0.  49.  32.  89.   0.  10.  45.  18.  66.]
+ [ 43.   0.   0.   0.  44.  75.  36.  98.   0.  78.  42.  98.  78.   0.
+   32.   0.  73.   0.  27.  55.   0.  29.  99.   0.   0.   0.  28.]
+ [  6.   5.  32.  13.   0.  27.  31.   0.  88.   0.  54.   0.   0.   0.
+   35.  16.   1.  36.  84.   0.  38.   0.   0.  36. 100.  17.   2.]
+ [ 53.  76.  34.  99.   0.  19.  44.  12.   0.  33.  84.  46.  97.  40.
+    0.  37.   0.   0.  59.  23.  42.  46.   0.   0.   0.  51.  60.]
+ [ 68.  55.   0.   0.  77.   0.  26.  30.   0.   6.  65.   0.   0.  93.
+   27.  96.  20.  53.  72.  97.  12.  58.  91.  90.   6.  13.   1.]
+ [ 36.   0.  19.   0.   0.   9.   0.   0.   0.  90.  53.  11.  95.  85.
+   29.  95.  64.  67.  80.   5.   0.  23.  43.  62.  18.   0.   0.]
+ [ 57.  50.   6.  46.  74.   0.   0.   0.   0.   2.  48.  12.  77.   0.
+   12.   0.   0.  96.   0.   0.  55.  86.   0.   0.  48.  75.  42.]
+ [ 19.  73.   0.  37.   0.   0.  36.   0.  47.  63.  10.  57.  81.   0.
+   87.   0.   0.   0.   0.  96.  20.   0.  94.   5.  63.   0.  27.]
+ [  0.   0.   0.   0.   0.  26.  27.   0.  16.  66.  68.   7.  73.   0.
+   72.  39.   0.   0.   0.   0.  74.   0.  84.  27.   0.   0.   0.]
+ [ 92.  22.  26.  34.  91.  98.  10.  37.  36.   0.  90.   0.   0.   0.
+   33.  31.  97.   0.   0.  89.  33.  54.   2.  54.   0.   0.  66.]
+ [  0.  20.  23.  46.   0.  48.   6.   0.  26.   0.   0.  39.  92.  42.
+    0.  98.  71.   0.   7.   0.   0.   0.  64.   0.   0.   0.  60.]
+ [  0.  20.   0.  27.  59.  91.  28.  12.   0.   0.   6.   0.  14.   1.
+   34.   0.  54.   0.  87.   0.   0.   0.   0.  35.  37.   0.  37.]
+ [ 80.   0.   0.  80.  82.  10.  70.  55.  65.  17.  63.  23.  17.  66.
+   83.   0.   0.   0.   0.  62.   0.  98.   0.  58.  43.  40.  81.]
+ [  0.  12.   0.   0.  58.  84.   0.  45.  41.  95.   1.   0.   0.   0.
+    0.   0.  53.   0.   0.  80.   0.  56.  53.   0.  68.   0.   0.]
+ [ 85.   0.  38.   0.  70.  62.   0.  47.   4.   0.   0.  60.  57.   0.
+    0.   0.  63.  36.  90.  98.  48.  54.   0.  99.  21.  62.  23.]
+ [  0.  11.  12.  25.   0.  67.   0.  68.   0.   0.  33.   0.   0.   0.
+   36.   0.   0.  82.  44.  99.   0.  55.  96.  52.  32.   0.  74.]
+ [  5.  93.  75.  20.  88.  70.   0.  10.   0.  12.   3.   0.  63.   0.
+    0.  41.  92.   0.   0.   0.   0.  27.   0.  93.  38.   0.  40.]
+ [ 96.  45.  66.  51.  52.   0.  97.   0.   0.   0.  60.  25.   0.   0.
+   49.  24.   0. 100.   0.  24.  46.   0.  39.   7.  53.  36.   0.]
+ [  0.   5.   0.   0.  43.   0.   0.   0.   0.   0.  16.  17.   0.  10.
+   83.   0.  31.  52.  72.  99.  71.  56.   0.  43.  87.   0.  98.]
+ [ 83.   0.  91.   0.  76.  80.  69.   0.   0.  23.  40.  49.  26.   0.
+   39.  79.   0.   0.  58.   0.  81.  82.  79.   0.   0.  72.  75.]]
+crea grafo di  27 elementi con probabilità di archi del  61.2579511 %.
+Sono necessari  0.001470  secondi per determinare le componenti di connesse di un grafo con  27  nodi e probabilità  61.2579511 .
+Sono necessari  0.001421  secondi per determinare le componenti di connesse di un grafo con  27  nodi e probabilità  61.2579511 .
+Sono necessari  0.002851  secondi per determinare le componenti di connesse di un grafo con  27  nodi e probabilità  61.2579511 .
+Sono necessari  0.002184  secondi per determinare le componenti di connesse di un grafo con  27  nodi e probabilità  61.2579511 .
+Sono necessari  0.001456  secondi per determinare le componenti di connesse di un grafo con  27  nodi e probabilità  61.2579511 .
+List number  1
+.. 0
+.. 1
+.. 2
+.. 3
+.. 7
+.. 8
+.. 9
+.. 10
+.. 11
+.. 12
+.. 13
+.. 15
+.. 16
+.. 20
+.. 21
+.. 26
+.. 4
+.. 5
+.. 6
+.. 18
+.. 25
+.. 14
+.. 17
+.. 22
+.. 23
+.. 24
+.. 19
+Sono necessari  0.002250  secondi per determinare il MST di un grafo con  27  nodi e probabilità  61.2579511 .
+Sono necessari  0.002038  secondi per determinare il MST di un grafo con  27  nodi e probabilità  61.2579511 .
+Sono necessari  0.001609  secondi per determinare il MST di un grafo con  27  nodi e probabilità  61.2579511 .
+Sono necessari  0.001611  secondi per determinare il MST di un grafo con  27  nodi e probabilità  61.2579511 .
+Sono necessari  0.001592  secondi per determinare il MST di un grafo con  27  nodi e probabilità  61.2579511 .
+( 9 , 16 )
+( 11 , 26 )
+( 18 , 13 )
+( 20 , 10 )
+( 0 , 11 )
+( 4 , 25 )
+( 9 , 26 )
+( 13 , 9 )
+( 16 , 22 )
+( 4 , 11 )
+( 5 , 16 )
+( 23 , 10 )
+( 7 , 2 )
+( 7 , 4 )
+( 21 , 8 )
+( 9 , 1 )
+( 12 , 19 )
+( 14 , 23 )
+( 23 , 0 )
+( 11 , 24 )
+( 17 , 6 )
+( 15 , 11 )
+( 17 , 18 )
+( 12 , 5 )
+( 0 , 3 )
+( 15 , 8 )
+
+10-GRAFO A 33 NODI E 65.13215599% DI PROBABILITà
+[[24.  0.  0. ...  0.  0.  0.]
+ [ 0.  0.  0. ...  0. 28. 44.]
+ [ 0.  0. 70. ...  0. 66. 73.]
+ ...
+ [ 0. 83. 89. ... 80. 38. 84.]
+ [ 0. 75.  0. ...  0.  5.  0.]
+ [12. 18. 57. ... 21. 10.  0.]]
+crea grafo di  33 elementi con probabilità di archi del  65.13215599 %.
+Sono necessari  0.002116  secondi per determinare le componenti di connesse di un grafo con  33  nodi e probabilità  65.13215599 .
+Sono necessari  0.001885  secondi per determinare le componenti di connesse di un grafo con  33  nodi e probabilità  65.13215599 .
+Sono necessari  0.001194  secondi per determinare le componenti di connesse di un grafo con  33  nodi e probabilità  65.13215599 .
+Sono necessari  0.001195  secondi per determinare le componenti di connesse di un grafo con  33  nodi e probabilità  65.13215599 .
+Sono necessari  0.003052  secondi per determinare le componenti di connesse di un grafo con  33  nodi e probabilità  65.13215599 .
+List number  1
+.. 0
+.. 3
+.. 4
+.. 6
+.. 10
+.. 11
+.. 12
+.. 13
+.. 14
+.. 15
+.. 24
+.. 27
+.. 28
+.. 1
+.. 7
+.. 16
+.. 17
+.. 21
+.. 22
+.. 29
+.. 31
+.. 32
+.. 2
+.. 5
+.. 18
+.. 19
+.. 20
+.. 23
+.. 25
+.. 9
+.. 30
+.. 8
+.. 26
+Sono necessari  0.006331  secondi per determinare il MST di un grafo con  33  nodi e probabilità  65.13215599 .
+Sono necessari  0.005161  secondi per determinare il MST di un grafo con  33  nodi e probabilità  65.13215599 .
+Sono necessari  0.006927  secondi per determinare il MST di un grafo con  33  nodi e probabilità  65.13215599 .
+Sono necessari  0.005422  secondi per determinare il MST di un grafo con  33  nodi e probabilità  65.13215599 .
+Sono necessari  0.006468  secondi per determinare il MST di un grafo con  33  nodi e probabilità  65.13215599 .
+( 1 , 15 )
+( 12 , 21 )
+( 31 , 4 )
+( 31 , 12 )
+( 0 , 15 )
+( 9 , 18 )
+( 13 , 16 )
+( 13 , 32 )
+( 14 , 20 )
+( 20 , 21 )
+( 32 , 21 )
+( 5 , 19 )
+( 9 , 5 )
+( 12 , 18 )
+( 18 , 3 )
+( 18 , 11 )
+( 27 , 6 )
+( 29 , 14 )
+( 32 , 24 )
+( 2 , 3 )
+( 5 , 6 )
+( 12 , 22 )
+( 17 , 6 )
+( 17 , 25 )
+( 28 , 23 )
+( 0 , 12 )
+( 30 , 4 )
+( 31 , 26 )
+( 28 , 7 )
+( 3 , 28 )
+( 10 , 12 )
+( 29 , 8 )
+
+11-GRAFO A 41 NODI E 68.618940391% DI PROBABILITà
+[[37. 81.  0. ... 45.  0. 99.]
+ [ 2.  5.  0. ... 18. 13.  0.]
+ [37.  0. 48. ... 20. 90.  4.]
+ ...
+ [63. 61. 97. ... 82. 89. 10.]
+ [53. 62. 61. ... 68. 47. 60.]
+ [95. 71.  0. ... 74. 64.  0.]]
+crea grafo di  41 elementi con probabilità di archi del  68.618940391 %.
+Sono necessari  0.003081  secondi per determinare le componenti di connesse di un grafo con  41  nodi e probabilità  68.618940391 .
+Sono necessari  0.004410  secondi per determinare le componenti di connesse di un grafo con  41  nodi e probabilità  68.618940391 .
+Sono necessari  0.001981  secondi per determinare le componenti di connesse di un grafo con  41  nodi e probabilità  68.618940391 .
+Sono necessari  0.002291  secondi per determinare le componenti di connesse di un grafo con  41  nodi e probabilità  68.618940391 .
+Sono necessari  0.001800  secondi per determinare le componenti di connesse di un grafo con  41  nodi e probabilità  68.618940391 .
+List number  1
+.. 0
+.. 1
+.. 3
+.. 5
+.. 7
+.. 8
+.. 9
+.. 10
+.. 11
+.. 12
+.. 15
+.. 16
+.. 17
+.. 18
+.. 19
+.. 20
+.. 23
+.. 25
+.. 27
+.. 29
+.. 32
+.. 33
+.. 36
+.. 37
+.. 38
+.. 40
+.. 4
+.. 13
+.. 14
+.. 21
+.. 22
+.. 26
+.. 28
+.. 31
+.. 34
+.. 39
+.. 2
+.. 6
+.. 24
+.. 30
+.. 35
+Sono necessari  0.003838  secondi per determinare il MST di un grafo con  41  nodi e probabilità  68.618940391 .
+Sono necessari  0.005528  secondi per determinare il MST di un grafo con  41  nodi e probabilità  68.618940391 .
+Sono necessari  0.004120  secondi per determinare il MST di un grafo con  41  nodi e probabilità  68.618940391 .
+Sono necessari  0.003791  secondi per determinare il MST di un grafo con  41  nodi e probabilità  68.618940391 .
+Sono necessari  0.003768  secondi per determinare il MST di un grafo con  41  nodi e probabilità  68.618940391 .
+( 0 , 37 )
+( 5 , 17 )
+( 7 , 25 )
+( 7 , 39 )
+( 15 , 29 )
+( 19 , 2 )
+( 19 , 39 )
+( 21 , 12 )
+( 24 , 31 )
+( 31 , 26 )
+( 34 , 37 )
+( 39 , 5 )
+( 1 , 0 )
+( 12 , 1 )
+( 13 , 40 )
+( 15 , 9 )
+( 22 , 20 )
+( 23 , 13 )
+( 37 , 33 )
+( 40 , 21 )
+( 2 , 37 )
+( 4 , 38 )
+( 15 , 23 )
+( 19 , 31 )
+( 21 , 3 )
+( 33 , 10 )
+( 34 , 6 )
+( 35 , 9 )
+( 22 , 18 )
+( 22 , 26 )
+( 30 , 26 )
+( 36 , 24 )
+( 1 , 14 )
+( 4 , 34 )
+( 8 , 10 )
+( 8 , 11 )
+( 12 , 32 )
+( 39 , 28 )
+( 3 , 27 )
+( 23 , 16 )
+
+12-GRAFO A 51 NODI E 71.7570463519% DI PROBABILITà
+[[ 3. 82.  8. ... 45. 17. 52.]
+ [ 0. 95.  0. ...  0.  0. 20.]
+ [ 0. 45. 75. ...  0.  0.  0.]
+ ...
+ [18. 31.  0. ... 84. 99. 33.]
+ [31. 76. 28. ... 49. 90. 95.]
+ [27. 94.  3. ...  0. 15.  0.]]
+crea grafo di  51 elementi con probabilità di archi del  71.7570463519 %.
+Sono necessari  0.008084  secondi per determinare le componenti di connesse di un grafo con  51  nodi e probabilità  71.7570463519 .
+Sono necessari  0.005177  secondi per determinare le componenti di connesse di un grafo con  51  nodi e probabilità  71.7570463519 .
+Sono necessari  0.002714  secondi per determinare le componenti di connesse di un grafo con  51  nodi e probabilità  71.7570463519 .
+Sono necessari  0.002679  secondi per determinare le componenti di connesse di un grafo con  51  nodi e probabilità  71.7570463519 .
+Sono necessari  0.003920  secondi per determinare le componenti di connesse di un grafo con  51  nodi e probabilità  71.7570463519 .
+List number  1
+.. 0
+.. 1
+.. 2
+.. 4
+.. 5
+.. 7
+.. 8
+.. 9
+.. 10
+.. 12
+.. 14
+.. 15
+.. 17
+.. 18
+.. 19
+.. 20
+.. 22
+.. 23
+.. 26
+.. 29
+.. 31
+.. 32
+.. 33
+.. 36
+.. 37
+.. 38
+.. 39
+.. 41
+.. 43
+.. 44
+.. 46
+.. 47
+.. 48
+.. 49
+.. 50
+.. 11
+.. 13
+.. 16
+.. 21
+.. 24
+.. 27
+.. 28
+.. 30
+.. 35
+.. 40
+.. 42
+.. 45
+.. 3
+.. 6
+.. 34
+.. 25
+Sono necessari  0.008351  secondi per determinare il MST di un grafo con  51  nodi e probabilità  71.7570463519 .
+Sono necessari  0.01085  secondi per determinare il MST di un grafo con  51  nodi e probabilità  71.7570463519 .
+Sono necessari  0.07297  secondi per determinare il MST di un grafo con  51  nodi e probabilità  71.7570463519 .
+Sono necessari  0.01077  secondi per determinare il MST di un grafo con  51  nodi e probabilità  71.7570463519 .
+Sono necessari  0.01002  secondi per determinare il MST di un grafo con  51  nodi e probabilità  71.7570463519 .
+( 0 , 33 )
+( 4 , 17 )
+( 9 , 0 )
+( 9 , 20 )
+( 12 , 18 )
+( 19 , 27 )
+( 19 , 44 )
+( 22 , 1 )
+( 30 , 27 )
+( 37 , 11 )
+( 38 , 3 )
+( 39 , 19 )
+( 41 , 43 )
+( 41 , 44 )
+( 42 , 12 )
+( 44 , 2 )
+( 45 , 40 )
+( 47 , 33 )
+( 49 , 26 )
+( 49 , 34 )
+( 1 , 16 )
+( 7 , 11 )
+( 8 , 50 )
+( 12 , 26 )
+( 14 , 22 )
+( 17 , 22 )
+( 20 , 24 )
+( 26 , 32 )
+( 28 , 39 )
+( 29 , 6 )
+( 35 , 44 )
+( 36 , 18 )
+( 37 , 12 )
+( 39 , 25 )
+( 39 , 49 )
+( 41 , 21 )
+( 45 , 33 )
+( 0 , 5 )
+( 4 , 29 )
+( 6 , 31 )
+( 11 , 17 )
+( 13 , 28 )
+( 18 , 5 )
+( 38 , 26 )
+( 46 , 3 )
+( 47 , 15 )
+( 50 , 2 )
+( 7 , 23 )
+( 48 , 37 )
+( 10 , 41 )
+
+13-GRAFO A 63 NODI E 74.58134171671% DI PROBABILITà
+[[77. 93. 84. ... 64. 97. 76.]
+ [36.  0. 62. ...  0. 14. 34.]
+ [86.  0.  0. ... 14. 34.  5.]
+ ...
+ [69. 39. 30. ... 92.  7. 10.]
+ [ 0.  0. 71. ... 25.  0.  0.]
+ [27. 14. 12. ... 83.  0.  4.]]
+crea grafo di  63 elementi con probabilità di archi del  74.58134171671 %.
+Sono necessari  0.005607  secondi per determinare le componenti di connesse di un grafo con  63  nodi e probabilità  74.58134171671 .
+Sono necessari  0.006779  secondi per determinare le componenti di connesse di un grafo con  63  nodi e probabilità  74.58134171671 .
+Sono necessari  0.004136  secondi per determinare le componenti di connesse di un grafo con  63  nodi e probabilità  74.58134171671 .
+Sono necessari  0.004040  secondi per determinare le componenti di connesse di un grafo con  63  nodi e probabilità  74.58134171671 .
+Sono necessari  0.004173  secondi per determinare le componenti di connesse di un grafo con  63  nodi e probabilità  74.58134171671 .
+List number  1
+.. 0
+.. 1
+.. 2
+.. 3
+.. 5
+.. 6
+.. 8
+.. 9
+.. 10
+.. 11
+.. 12
+.. 15
+.. 16
+.. 17
+.. 18
+.. 19
+.. 23
+.. 24
+.. 25
+.. 26
+.. 28
+.. 29
+.. 30
+.. 31
+.. 32
+.. 33
+.. 35
+.. 36
+.. 37
+.. 38
+.. 40
+.. 42
+.. 43
+.. 46
+.. 48
+.. 51
+.. 53
+.. 54
+.. 55
+.. 56
+.. 57
+.. 59
+.. 60
+.. 61
+.. 62
+.. 4
+.. 7
+.. 14
+.. 20
+.. 21
+.. 22
+.. 27
+.. 34
+.. 39
+.. 44
+.. 45
+.. 47
+.. 49
+.. 50
+.. 52
+.. 13
+.. 58
+.. 41
+Sono necessari  0.01049  secondi per determinare il MST di un grafo con  63  nodi e probabilità  74.58134171671 .
+Sono necessari  0.01277  secondi per determinare il MST di un grafo con  63  nodi e probabilità  74.58134171671 .
+Sono necessari  0.01638  secondi per determinare il MST di un grafo con  63  nodi e probabilità  74.58134171671 .
+Sono necessari  0.01545  secondi per determinare il MST di un grafo con  63  nodi e probabilità  74.58134171671 .
+Sono necessari  0.01412  secondi per determinare il MST di un grafo con  63  nodi e probabilità  74.58134171671 .
+( 0 , 46 )
+( 1 , 4 )
+( 5 , 35 )
+( 9 , 7 )
+( 13 , 55 )
+( 17 , 36 )
+( 17 , 40 )
+( 23 , 34 )
+( 24 , 55 )
+( 25 , 41 )
+( 30 , 55 )
+( 33 , 49 )
+( 37 , 40 )
+( 39 , 6 )
+( 39 , 33 )
+( 40 , 0 )
+( 40 , 13 )
+( 41 , 34 )
+( 44 , 17 )
+( 47 , 14 )
+( 47 , 41 )
+( 49 , 2 )
+( 49 , 28 )
+( 49 , 50 )
+( 51 , 7 )
+( 52 , 38 )
+( 59 , 52 )
+( 3 , 57 )
+( 4 , 15 )
+( 7 , 13 )
+( 8 , 52 )
+( 10 , 49 )
+( 11 , 14 )
+( 11 , 50 )
+( 12 , 58 )
+( 14 , 0 )
+( 17 , 42 )
+( 19 , 22 )
+( 29 , 6 )
+( 29 , 8 )
+( 35 , 26 )
+( 36 , 15 )
+( 46 , 22 )
+( 53 , 11 )
+( 57 , 53 )
+( 60 , 37 )
+( 61 , 6 )
+( 0 , 31 )
+( 3 , 5 )
+( 3 , 56 )
+( 13 , 21 )
+( 18 , 14 )
+( 25 , 48 )
+( 39 , 58 )
+( 45 , 20 )
+( 45 , 59 )
+( 52 , 16 )
+( 58 , 27 )
+( 43 , 25 )
+( 54 , 10 )
+( 2 , 62 )
+( 8 , 32 )
+
+CONTENUTO FILE PICKLE
+:>Componenti Connesse  {6: Decimal('0.00001746'), 7: Decimal('0.0000384'), 8: Decimal('0.00006622'), 10: Decimal('0.00004242'), 12: Decimal('0.00008138'), 15: Decimal('0.0001151'), 18: Decimal('0.0001587'), 22: Decimal('0.000262'), 27: Decimal('0.0002912'), 33: Decimal('0.0006104'), 41: Decimal('0.000360'), 51: Decimal('0.000784'), 63: Decimal('0.0008346')}
+:> MST  {6: Decimal('0.00002322'), 7: Decimal('0.00004306'), 8: Decimal('0.00009094'), 10: Decimal('0.00005586'), 12: Decimal('0.0001162'), 15: Decimal('0.0002046'), 18: Decimal('0.0001424'), 22: Decimal('0.0002084'), 27: Decimal('0.0003184'), 33: Decimal('0.001294'), 41: Decimal('0.0007536'), 51: Decimal('0.002004'), 63: Decimal('0.002824')}
